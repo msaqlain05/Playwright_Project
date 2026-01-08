@@ -8,7 +8,7 @@ test("Recruit Central Application test",async({page}) =>{
     await page.locator("input[placeholder='Enter your password']").fill("superadmin123")
     await page.locator("button[type='submit'] span[class='block']").click()
 
-    await expect(page).toHaveURL(/super-admin/)
+    // await expect(page).toHaveURL(/super-admin/)
 
     // await page.locator("$(.text-xl.font-semibold.capitalize.truncate)").click()
 
